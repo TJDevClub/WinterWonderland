@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Blender User</author>
+      <authoring_tool>Blender 2.77.0 commit date:2016-04-05, commit time:18:12, hash:abf6f08</authoring_tool>
+    </contributor>
+    <created>2016-12-11T17:16:15</created>
+    <modified>2016-12-11T17:16:15</modified>
+    <unit name="meter" meter="1"/>
+    <up_axis>Z_UP</up_axis>
+  </asset>
+  <library_images/>
+  <library_effects>
+    <effect id="trunk-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.1198474 0.04751448 0.00322146 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="leaves_001-effect">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color sid="emission">0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.02606383 0.25086 0.1056077 1</color>
+            </diffuse>
+            <index_of_refraction>
+              <float sid="index_of_refraction">1</float>
+            </index_of_refraction>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_materials>
+    <material id="trunk-material" name="trunk">
+      <instance_effect url="#trunk-effect"/>
+    </material>
+    <material id="leaves_001-material" name="leaves_001">
+      <instance_effect url="#leaves_001-effect"/>
+    </material>
+  </library_materials>
+  <library_geometries>
+    <geometry id="Cylinder-mesh" name="Cylinder">
+      <mesh>
+        <source id="Cylinder-mesh-positions">
+          <float_array id="Cylinder-mesh-positions-array" count="132">0 0.50752 -0.79698 0.3362497 0.3850911 -0.8059884 0.5151645 0.07509052 -0.8107817 0.4530281 -0.2774292 -0.809117 0.1789146 -0.50752 -0.8017733 -0.1789149 -0.50752 -0.7921867 -0.4530281 -0.2774291 -0.784843 -0.5151645 0.07509052 -0.7831783 -0.3362498 0.3850911 -0.7879716 0.04917514 -0.01577943 1.038543 5.37515e-4 0.06651335 -0.7769152 0.05341529 0.04726046 -0.7783318 0.08155107 -0.00148946 -0.7790856 0.0717796 -0.05692583 -0.7788239 0.02867317 -0.09310936 -0.777669 -0.02759826 -0.09310936 -0.7761614 -0.07070457 -0.05692583 -0.7750065 -0.08047604 -0.00148946 -0.7747448 -0.05234026 0.04726046 -0.7754986 -0.2944566 -0.1860844 -0.7736023 -0.1160391 -0.3358482 -0.7783822 -0.2184468 0.2451429 -0.7756386 -0.3349005 0.04336684 -0.7725187 0.2952858 -0.1860845 -0.7894019 0.3357297 0.04336684 -0.7904854 0.1168682 -0.3358482 -0.7846219 0.219276 0.2451429 -0.7873656 4.1461e-4 0.3248306 -0.7815021 -0.06486988 -0.2616497 0.1231783 -0.002250313 0.106812 -1.038543 -0.002250313 0.1205475 -0.7888788 0.1164722 0.02055495 -1.038543 0.1295355 0.02479946 -0.7888788 0.07112431 -0.1190118 -1.038543 0.07919776 -0.130124 -0.7888788 -0.07562494 -0.1190118 -1.038543 -0.08369851 -0.130124 -0.7888788 -0.1209728 0.02055495 -1.038543 -0.1340361 0.02479946 -0.7888788 -0.002250313 0.106812 -0.9030619 0.1164722 0.02055495 -0.9030619 0.07112431 -0.1190118 -0.9030619 -0.07562494 -0.1190118 -0.9030619 -0.1209728 0.02055495 -0.9030619</float_array>
+          <technique_common>
+            <accessor source="#Cylinder-mesh-positions-array" count="44" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Cylinder-mesh-normals">
+          <float_array id="Cylinder-mesh-normals-array" count="228">0.3371876 0.9077058 0.2497492 0.8431742 0.4829803 0.2361935 0.9578722 -0.1677371 0.2331206 0.6276125 -0.7399688 0.2419686 0.006928026 -0.9659604 0.2585972 -0.6137568 -0.7399685 0.2752258 -0.9440161 -0.1677373 0.2840738 -0.8293182 0.4829801 0.2810009 -0.3233316 0.9077058 0.2674452 -0.01463449 0.01447826 -0.9997882 -0.02677953 0 -0.9996414 -0.01041477 -0.009449839 -0.9999011 -0.04538244 0.003283023 -0.9989643 -0.02677649 0.01889961 -0.9994628 -0.008170366 0.003281891 -0.9999613 -0.04313808 -0.009450078 -0.9990245 -0.03323751 -0.01775991 -0.9992897 -0.02031457 -0.01775985 -0.9996359 -0.03892004 0.01447772 -0.9991375 -0.08439242 0.06881213 -0.9940538 0.004038929 -0.0844106 -0.9964229 -0.05738443 -0.08441048 -0.9947774 -0.1044386 -0.04491406 -0.9935167 0.06175798 0.01559841 -0.9979693 -0.02667295 0.08982831 -0.9956001 -0.1151044 0.01559859 -0.993231 0.05109316 -0.04491382 -0.9976835 0.03104621 0.06881201 -0.9971465 0.5850212 0.805213 -0.09686219 0.9465846 -0.3075637 -0.09686261 0 -0.9952979 -0.09686243 0 0 1 -0.9465846 -0.3075636 -0.09686243 -0.5850213 0.8052129 -0.09686231 0 0 -1 -0.5877855 0.8090169 0 -0.9510568 -0.3090164 0 0 -1 0 0.9510568 -0.3090163 0 0.5877855 0.809017 0 0.006927907 -0.9659605 0.2585972 -0.6137568 -0.7399685 0.2752259 -0.01463186 0.01447808 -0.9997882 -0.02678149 0 -0.9996414 -0.02678328 7.53732e-7 -0.9996413 -0.0267834 1.94686e-7 -0.9996413 -0.02677977 -2.6613e-7 -0.9996414 -0.0267834 -1.62944e-7 -0.9996414 -0.02678066 -1.26483e-7 -0.9996414 -0.01041704 -0.009450316 -0.9999012 -0.04538172 0.00328195 -0.9989644 -0.02677422 0.01889944 -0.9994629 -0.008170604 0.00328201 -0.9999613 -0.0431385 -0.009450197 -0.9990244 -0.03323894 -0.01775997 -0.9992897 -0.02031576 -0.01775991 -0.9996359 -0.03892296 0.01447761 -0.9991374 -0.08439224 0.06881237 -0.9940538 0.004038453 -0.08441054 -0.9964229 -0.05738413 -0.08441048 -0.9947773 -0.1044386 -0.04491406 -0.9935167 0.06175839 0.01559853 -0.9979693 -0.02667278 0.08982759 -0.9956002 -0.1151044 0.01559817 -0.993231 0.05109226 -0.04491394 -0.9976835 0.03104615 0.06881201 -0.9971464 0.5850216 0.8052129 -0.09686231 0.9465845 -0.3075641 -0.09686142 0 -0.9952978 -0.09686249 -5.90461e-7 0 1 -0.9465846 -0.3075634 -0.09686243 -0.5850211 0.805213 -0.09686243 -0.587785 0.8090172 0 -0.9510567 -0.3090167 0 0.9510567 -0.3090168 0 0.5877851 0.8090173 0</float_array>
+          <technique_common>
+            <accessor source="#Cylinder-mesh-normals-array" count="76" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Cylinder-mesh-vertices">
+          <input semantic="POSITION" source="#Cylinder-mesh-positions"/>
+        </vertices>
+        <polylist material="trunk-material" count="26">
+          <input semantic="VERTEX" source="#Cylinder-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cylinder-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>30 28 40 28 39 28 32 29 41 29 40 29 34 30 42 30 41 30 30 31 36 31 34 31 36 32 43 32 42 32 43 33 30 33 39 33 33 34 35 34 37 34 43 35 29 35 37 35 42 36 37 36 35 36 41 37 35 37 33 37 40 38 33 38 31 38 39 39 31 39 29 39 30 66 32 66 40 66 32 67 34 67 41 67 34 68 36 68 42 68 34 69 32 69 30 69 30 31 38 31 36 31 36 70 38 70 43 70 43 71 38 71 30 71 37 34 29 34 31 34 31 34 33 34 37 34 43 72 39 72 29 72 42 73 43 73 37 73 41 37 42 37 35 37 40 74 41 74 33 74 39 75 40 75 31 75</p>
+        </polylist>
+        <polylist material="leaves_001-material" count="54">
+          <input semantic="VERTEX" source="#Cylinder-mesh-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Cylinder-mesh-normals" offset="1"/>
+          <vcount>3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 </vcount>
+          <p>0 0 9 0 1 0 1 1 9 1 2 1 2 2 9 2 3 2 3 3 9 3 4 3 4 4 28 4 5 4 28 5 6 5 5 5 6 6 9 6 7 6 7 7 9 7 8 7 8 8 9 8 0 8 20 9 16 9 15 9 11 10 15 10 18 10 21 11 17 11 22 11 24 12 13 12 12 12 20 13 14 13 25 13 19 14 17 14 16 14 24 15 11 15 26 15 27 16 11 16 10 16 27 17 18 17 21 17 25 18 13 18 23 18 4 19 23 19 3 19 8 20 27 20 21 20 1 21 27 21 0 21 1 22 24 22 26 22 7 23 19 23 6 23 5 24 25 24 4 24 2 25 23 25 24 25 7 26 21 26 22 26 6 27 20 27 5 27 4 40 9 40 28 40 28 41 9 41 6 41 20 42 19 42 16 42 18 43 10 43 11 43 11 44 12 44 13 44 13 45 14 45 11 45 15 46 16 46 17 46 17 47 18 47 15 47 11 48 14 48 15 48 21 49 18 49 17 49 24 50 23 50 13 50 20 51 15 51 14 51 19 52 22 52 17 52 24 53 12 53 11 53 27 54 26 54 11 54 27 55 10 55 18 55 25 56 14 56 13 56 4 57 25 57 23 57 8 58 0 58 27 58 1 59 26 59 27 59 1 60 2 60 24 60 7 61 22 61 19 61 5 62 20 62 25 62 2 63 3 63 23 63 7 64 8 64 21 64 6 65 19 65 20 65</p>
+        </polylist>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_controllers/>
+  <library_visual_scenes>
+    <visual_scene id="Scene" name="Scene">
+      <node id="blank_tree" name="blank_tree" type="NODE">
+        <matrix sid="transform">1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1</matrix>
+        <instance_geometry url="#Cylinder-mesh" name="blank_tree">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="trunk-material" target="#trunk-material"/>
+              <instance_material symbol="leaves_001-material" target="#leaves_001-material"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#Scene"/>
+  </scene>
+</COLLADA>
