@@ -9,11 +9,11 @@
 <body>
     <a-scene inspector="url:https://aframe.io/releases/0.3.0/aframe-inspector.min.js">
         <a-assets>
-            <a-asset-item id="decorated-tree" src="./models/decorated_tree.dae"></a-asset-item>
+            <a-asset-item id="decorated-tree" src="./models/snowman.dae"></a-asset-item>
         </a-assets>
         <a-sky color="#000"></a-sky>
         <a-box color="#aa3333" width="2" height="2" depth="2"></a-box>
-        <a-entity collada-model="#decorated-tree" position="0, 1, 0" turn-on-click></a-entity>
+        <a-entity collada-model="#decorated-tree" position="0, 1.5, 0" turn-on-click></a-entity>
         <a-entity light="color: #66F; intensity: 1.2; type:ambient" position="0, 4, 0"></a-entity>
         <a-entity light="color: #6F4;"  position="0, 4, 4"></a-entity>
         <a-camera position="0 1.8 0">

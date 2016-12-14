@@ -188,3 +188,16 @@ after you include the A-Frame code.
 
 Those are basically the basics of A-Frame. There's so much room for creativity,
 so go wild!
+
+## Activity
+
+Your activity today is to make a VR Christmas (Or Hanukkah or Kwanzaa) card. To
+aid you in your endeavours, I have some Collada models already in the /models
+directory. Some additional third-party components you might want to look into
+include:
+- [Include animated
+    gifs](https://github.com/gtk2k/gtk2k.github.io/tree/master/animation_gif)
+- [Particle systems (think
+    snow)](https://github.com/IdeaSpaceVR/aframe-particle-system-component)
+- [Include text (make sure to read the
+    docs!)](https://github.com/ngokevin/aframe-text-component)
